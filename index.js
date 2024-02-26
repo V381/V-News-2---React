@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 const cors = require('cors');
-const PORT = 8080;
+const port = process.env.PORT || 3000;
 
 app.use(cors())
 
